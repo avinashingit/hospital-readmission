@@ -1,0 +1,25 @@
+Package: EviveHospitalReadmission
+Type: Package
+Title: Hospital Readmission
+Version: 0.1.0
+Author: Evive
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: Build a model to predict if a person is going to be readmitted to the hospital.
+License: What license is it under?
+LazyData: TRUE
+Imports :
+  logging
+RoxygenNote: 6.0.1
+BugReports: Evive
+Collate: zzz.R
+  data_processing.R
+  modeling_main.R
+  parameters.R
+  transform_data.R
+  utilities.R
+  find_prevalence.R
+  prediction_functions.R
+  prediction_main.R
+  cost_utilities.R
+Suggests: testthat,
+    covr
